@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'Outfit', system-ui, sans-serif;
+
+    /* Dynamic Primary Colors based on CSS Variables */
+    --color-primary: var(--primary-color);
+    --color-primary-foreground: var(--color-white);
+    --color-secondary: var(--secondary-color);
+
+    /* Animation Definitions... */
+    --animate-fade-in: fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    --animate-scale-in: scale-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    --animate-float: float 6s ease-in-out infinite;
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade-in-up {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes scale-in {
+        0% {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+}
+
+/* Base Attributes (Light Mode Default) */
+:root {
+    --primary-color: var(--color-violet-600);
+    --secondary-color: var(--color-fuchsia-600);
+
+    /* Base Colors - Light */
+    --bg-body: #f8fafc;
+    /* slate-50 */
+    --bg-card: #ffffff;
+    --bg-input: #f1f5f9;
+    /* slate-100 */
+    --text-main: #0f172a;
+    /* slate-900 */
+    --text-muted: #64748b;
+    /* slate-500 */
+    --border-color: #e2e8f0;
+    /* slate-200 */
+    --glass-bg: rgba(255, 255, 255, 0.8);
+    --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+/* Accent Color Overrides */
+:root.theme-violet {
+    --primary-color: var(--color-violet-600);
+    --secondary-color: var(--color-fuchsia-600);
+}
+
+:root.theme-blue {
+    --primary-color: var(--color-blue-600);
+    --secondary-color: var(--color-cyan-500);
+}
+
+:root.theme-emerald {
+    --primary-color: var(--color-emerald-600);
+    --secondary-color: var(--color-teal-500);
+}
+
+:root.theme-rose {
+    --primary-color: var(--color-rose-600);
+    --secondary-color: var(--color-pink-500);
+}
+
+:root.theme-amber {
+    --primary-color: var(--color-amber-500);
+    --secondary-color: var(--color-orange-500);
+}
+
+/* Base Theme Overrides */
+/* Dark (Slate) */
+:root.dark {
+    --bg-body: #020617;
+    /* slate-950 */
+    --bg-card: #0f172a;
+    /* slate-900 */
+    --bg-input: #1e293b;
+    /* slate-800 */
+    --text-main: #f8fafc;
+    /* slate-50 */
+    --text-muted: #94a3b8;
+    /* slate-400 */
+    --border-color: #1e293b;
+    /* slate-800 */
+    --glass-bg: rgba(15, 23, 42, 0.8);
+    --glass-border: rgba(30, 41, 59, 0.5);
+}
+
+/* Midnight (Zinc/Black) */
+:root.base-midnight {
+    --bg-body: #000000;
+    --bg-card: #09090b;
+    /* zinc-950 */
+    --bg-input: #18181b;
+    /* zinc-900 */
+    --text-main: #fafafa;
+    /* zinc-50 */
+    --text-muted: #a1a1aa;
+    /* zinc-400 */
+    --border-color: #27272a;
+    /* zinc-800 */
+    --glass-bg: rgba(9, 9, 11, 0.8);
+    --glass-border: rgba(39, 39, 42, 0.5);
+}
+
+/* Navy (Deep Blue) */
+:root.base-navy {
+    --bg-body: #0a1128;
+    /* custom deep navy */
+    --bg-card: #111a44;
+    --bg-input: #1c2550;
+    --text-main: #edf2ff;
+    --text-muted: #94a3b8;
+    --border-color: #1e293b;
+    --glass-bg: rgba(17, 26, 68, 0.8);
+    --glass-border: rgba(30, 41, 59, 0.5);
+}
+
+/* Forest (Deep Green) */
+:root.base-forest {
+    --bg-body: #052e16;
+    /* green-950 */
+    --bg-card: #022c22;
+    /* teal-950 mix */
+    --bg-input: #064e3b;
+    /* emerald-900 */
+    --text-main: #ecfdf5;
+    /* emerald-50 */
+    --text-muted: #6ee7b7;
+    /* emerald-300 */
+    --border-color: #065f46;
+    /* emerald-800 */
+    --glass-bg: rgba(2, 44, 34, 0.8);
+    --glass-border: rgba(6, 78, 59, 0.5);
+}
+
+/* Sunset (Deep Red/Orange) */
+:root.base-sunset {
+    --bg-body: #450a0a;
+    /* red-950 */
+    --bg-card: #7f1d1d;
+    /* red-900 */
+    --bg-input: #991b1b;
+    /* red-800 */
+    --text-main: #fef2f2;
+    /* red-50 */
+    --text-muted: #fca5a5;
+    /* red-300 */
+    --border-color: #7f1d1d;
+    --glass-bg: rgba(69, 10, 10, 0.8);
+    --glass-border: rgba(127, 29, 29, 0.5);
+}
+
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+    body {
+        background-color: var(--bg-body);
+        color: var(--text-main);
+        /* Subtle Gradient Mesh Background */
+        background-image:
+            radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 0) 0, transparent 50%),
+            radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 0) 0, transparent 50%),
+            radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 0) 0, transparent 50%);
+        /* In light mode, use a very subtle pattern */
+        background-image: var(--bg-pattern, none);
+
+        @apply transition-colors duration-300 antialiased font-sans selection:bg-primary/30 min-h-screen;
+    }
+
+    /* Light Mode Pattern */
+    :root {
+        --bg-pattern: radial-gradient(circle at 50% 0%, rgba(var(--color-primary), 0.05) 0%, transparent 50%);
+    }
+
+    :root.dark {
+        --bg-pattern: radial-gradient(circle at 50% 0%, rgba(var(--color-primary), 0.1) 0%, transparent 60%);
+    }
+
+    /* Semantic Utility Classes */
+    .bg-app {
+        background-color: var(--bg-body);
+    }
+
+    .bg-card-app {
+        background-color: var(--bg-card);
+    }
+
+    .bg-input-app {
+        background-color: var(--bg-input);
+    }
+
+    .text-main {
+        color: var(--text-main);
+    }
+
+    .text-muted {
+        color: var(--text-muted);
+    }
+
+    .border-app {
+        border-color: var(--border-color);
+    }
+
+    /* Glassmorphism Utilities */
+    .glass {
+        background-color: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        @apply backdrop-blur-md shadow-xl;
+    }
+
+    .glass-card {
+        background-color: var(--bg-card);
+        border: 1px solid var(--border-color);
+        @apply backdrop-blur-sm shadow-lg;
+        background-opacity: 0.9;
+        /* Tailwind hack or custom handled above */
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-300/80 dark:bg-slate-700/80 rounded-full hover:bg-slate-400 dark:hover:bg-slate-600 transition-colors;
+}
+
+/* Mobile Safe Area Utility */
+.safe-area-bottom,
+.pb-safe {
+    padding-bottom: 1.5rem;
+    /* Fallback */
+    padding-bottom: calc(1.5rem + constant(safe-area-inset-bottom));
+    /* iOS 11.0 */
+    padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));
+    /* iOS 11.2+ */
+}

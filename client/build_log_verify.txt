@@ -1,0 +1,4395 @@
+﻿node.exe : 2026-01-0
+1T23:23:07.690Z 
+vite:config config 
+file loaded in 
+391.58ms
+At line:1 char:1
++ & "C:\Program File
+s\nodejs/node.exe" 
+"C:\Program Files\no
+dejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (2026   
+ -01-01T23:2...d    
+ed in 391.58ms:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+2026-01-01T23:23:07.
+699Z vite:env 
+loading env files: [
+  'C:/Users/sahil/De
+sktop/REACT Project/
+ChitChat/client/.env
+',
+  'C:/Users/sahil/De
+sktop/REACT Project/
+ChitChat/client/.env
+.local',
+  'C:/Users/sahil/De
+sktop/REACT Project/
+ChitChat/client/.env
+.production',
+  'C:/Users/sahil/De
+sktop/REACT Project/
+ChitChat/client/.env
+.production.local'
+]
+2026-01-01T23:23:07.
+700Z vite:env env 
+files loaded in 
+1.92ms
+2026-01-01T23:23:07.
+702Z vite:env using 
+resolved env: {}
+2026-01-01T23:23:07.
+778Z vite:config 
+using resolved 
+config: {
+  plugins: [
+    'vite:build-meta
+data',
+    'vite:watch-pack
+age-data',
+    'alias',
+    
+'vite:react-babel',
+    'vite:react-refr
+esh',
+    'vite:moduleprel
+oad-polyfill',
+    'vite:resolve',
+    'vite:html-inlin
+e-proxy',
+    'vite:css',
+    'vite:esbuild',
+    'vite:json',
+    
+'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'vite:react-virt
+ual-preamble',
+    
+'vite:basic-ssl',
+    'vite-plugin-nod
+e-polyfills',
+    'vite:wasm-fallb
+ack',
+    'vite:define',
+    'vite:css-post',
+    
+'vite:build-html',
+    'vite:worker-imp
+ort-meta-url',
+    'vite:asset-impo
+rt-meta-url',
+    'vite:force-amd-
+wrap-require',
+    'vite:force-syst
+emjs-wrap-complete',
+    'vite:prepare-ou
+t-dir',
+    'commonjs',
+    'vite:data-uri',
+    'vite:rollup-opt
+ions-plugins',
+    'vite:dynamic-im
+port-vars',
+    
+'vite:import-glob',
+    'vite:build-impo
+rt-analysis',
+    'vite:esbuild-tr
+anspile',
+    'vite:terser',
+    'vite:license',
+    'vite:manifest',
+    
+'vite:ssr-manifest',
+    'vite:reporter',
+    
+'vite:load-fallback'
+  ],
+  server: {
+    port: 5173,
+    strictPort: 
+false,
+    host: true,
+    allowedHosts: 
+[],
+    https: {
+      cert: 
+'-----BEGIN RSA 
+PRIVATE 
+KEY-----\r\n' +
+        'MIIEowIBAAK
+CAQEAnVUoz2eBXEJ+p5F
+d08C8G36hCKdahMlTV9H
+2SiwynfVZn7Ww\r\n' +
+        'TliRfRkne3X
+MN1tK3PsXbC+atQE7JVx
+GOWAMpGwroiSE5CQIN3h
+Hoy/QEkbBeJNZ\r\n' +
+        'xK/jdGP8z/N
+gCg+cPnuFxvtQ4kMSxgk
+qCyQPd0889yuLv6kZ2Ge
++dZj2xQ8wZZB+\r\n' +
+        'd9VGUw0rZ+h
+EKPI98STleP/LaOqcPuc
+lrBiFPEAIE+kBIA9ZOsi
+1xKXkznToIor9\r\n' +
+        '3Yhdpcru8t0
+cmQydEn5511RDyxHPUgZ
+LapMAtIvmLuEiiWrw6LZ
+YxATCMXCXROMu\r\n' +
+        '/d9f1zw3Ia8
+OAR+OcD8EVvc9mI0CvXf
+wOPoTrQIDAQABAoIBAAa
+Nx5dsLl1Tf8cn\r\n' +
+        'LQtnGe7jRX4
+AyqqBYHFmE6ZfVPRzhfo
+7LU72LYlShOyFqa4cpW+
+zHfSpvv4PQRF7\r\n' +
+        'WImHUL+Aqgi
+lEMwYHCeDYSiRE0/Plru
+ZF8IzuXvdtmhLMRL6N33
+600XIrkPem2eY\r\n' +
+        'diHkrKhBqr5
+5F+cx+hujprFrX8wxlwU
+lctFopi1JjICn49BdMaD
+k5bHwdgoqCXwg\r\n' +
+        '5DTIDmW/I1O
+Hzy6MC30VOGtyeOTMvaW
+1QZ/NRjYp4rooOm+rQSR
+PoUJ1/SJBJCeD\r\n' +
+        'qtzFIbZ0dih
+8pj82dANSyhyT92DlcO4
+5UQfXhZXrkswayz21K10
+fQhEdV25nUoyR\r\n' +
+        '2HASj9kCgYE
+A15lWwNVEL45+UJ7qxUE
+bZtRmmWFGAnwC45LA2DD
+7VKz8xzDwpsyL\r\n' +
+        'VFRPUb/VD2q
+Cm7w+vVSswhFaBkF4UxE
+cAXhAmzVjme1OBuuEc/r
+xME2cgqkWomzD\r\n' +
+        'QXaWbsduZDc
+mLbJZuS1PbjfOXDVtSLX
+BV0+NgKsl+xZ9GrCQCEm
+fwrcCgYEAutCu\r\n' +
+        'xc6An66kESd
+5+2mGwklUd1ZZ83COG35
+aaLSqfRjG/17U1wLBh+O
+YMeGpOrvAjo+p\r\n' +
+        'Jl3TWr3hKlR
+4DH6XcpIa1r9EiNXcsCV
+CCmhRf8vRgvD90bUQaJM
+OtniMPmOdUuko\r\n' +
+        '8ayAbmSeXLw
+YkmwmaezfWgBEvJ/PrSv
+QXki36LsCgYAHkCZ97z1
+MGciOlXSQ5N7M\r\n' +
+        'Nak/uizVi3o
+id5RyQQ2gA81+Q1Y907E
+TjT2XFY6o0siwI+NjiuP
+gjvFEhOluqIv9\r\n' +
+        '9TT2/OF4ld2
+F2p8z3lq1ohNadgoIOp6
+C3mEak75on5KkSbxiBZf
+iuuxvSaSCx3V3\r\n' +
+        '1Z+WIurbKwf
+KduUmlUaYcwKBgQCe8Jk
+hthV8xgrUhW+k1R1QAy+
+X8KHLGoHtJk0p\r\n' +
+        'NDyw/fmgn0A
+aRj/9q0d7ePCQBdlH8TY
+KbF07oL0HVKJmjvWvBlt
+LRaO7f6ipPKm5\r\n' +
+        'TRO51ODFtN9
+eIdx5/FPSLzGyivH47mJ
+la0xBn92ULHwDZ3wvNta
+4Le5NRPJd9R7s\r\n' +
+        'eJXvrQKBgEI
+cz/m6CEtcTKJZ+HVweXr
+J/+CupEQgVNfmtf0juLU
+icjxIp4AzE2DY\r\n' +
+        'ctDDqLwnL7s
+LHXvJn2iuWi3EoUgek63
+SFiTa+lLSlnzkVFuVMHR
+PXNtcYqhWSiG5\r\n' +
+        '41VvoBW8S4u
+htCOoTHHIE3ZG5faEYVO
+22ho1hrRBMcRdbWdAr/x
+C\r\n' +
+        '-----END 
+RSA PRIVATE 
+KEY-----\r\n' +
+        '-----BEGIN 
+CERTIFICATE-----\r\n
+' +
+        'MIIDzDCCArS
+gAwIBAgIJbUP0nM+YaF1
+dMA0GCSqGSIb3DQEBCwU
+AMGkxFDASBgNV\r\n' +
+        'BAMTC2V4YW1
+wbGUub3JnMQswCQYDVQQ
+GEwJVUzERMA8GA1UECBM
+IVmlyZ2luaWEx\r\n' +
+        'EzARBgNVBAc
+TCkJsYWNrc2J1cmcxDTA
+LBgNVBAoTBFRlc3QxDTA
+LBgNVBAsTBFRl\r\n' +
+        'c3QwHhcNMjU
+xMjMwMTcwNjA0WhcNMjY
+wMTI5MTcwNjA0WjBpMRQ
+wEgYDVQQDEwtl\r\n' +
+        'eGFtcGxlLm9
+yZzELMAkGA1UEBhMCVVM
+xETAPBgNVBAgTCFZpcmd
+pbmlhMRMwEQYD\r\n' +
+        'VQQHEwpCbGF
+ja3NidXJnMQ0wCwYDVQQ
+KEwRUZXN0MQ0wCwYDVQQ
+LEwRUZXN0MIIB\r\n' +
+        'IjANBgkqhki
+G9w0BAQEFAAOCAQ8AMII
+BCgKCAQEAnVUoz2eBXEJ
++p5Fd08C8G36h\r\n' +
+        'CKdahMlTV9H
+2SiwynfVZn7WwTliRfRk
+ne3XMN1tK3PsXbC+atQE
+7JVxGOWAMpGwr\r\n' +
+        'oiSE5CQIN3h
+Hoy/QEkbBeJNZxK/jdGP
+8z/NgCg+cPnuFxvtQ4kM
+SxgkqCyQPd088\r\n' +
+        '9yuLv6kZ2Ge
++dZj2xQ8wZZB+d9VGUw0
+rZ+hEKPI98STleP/LaOq
+cPuclrBiFPEAI\r\n' +
+        'E+kBIA9ZOsi
+1xKXkznToIor93Yhdpcr
+u8t0cmQydEn5511RDyxH
+PUgZLapMAtIvm\r\n' +
+        'LuEiiWrw6LZ
+YxATCMXCXROMu/d9f1zw
+3Ia8OAR+OcD8EVvc9mI0
+CvXfwOPoTrQID\r\n' +
+        'AQABo3cwdTA
+LBgNVHQ8EBAMCAvQwMQY
+DVR0lBCowKAYIKwYBBQU
+HAwEGCCsGAQUF\r\n' +
+        'BwMCBggrBgE
+FBQcDAwYIKwYBBQUHAwg
+wMwYDVR0RBCwwKoIJbG9
+jYWxob3N0ggVb\r\n' +
+        'OjoxXYcEfwA
+AAYcQ/oAAAAAAAAAAAAA
+AAAAAATANBgkqhkiG9w0
+BAQsFAAOCAQEA\r\n' +
+        'T0WaDzqy70N
+23TWOl0G+fNUhRRjcJMG
+7UaUG4sELNVNJrvvPsYd
+r9uXI2J7kfJgI\r\n' +
+        'u7iOeNQ55lM
+pHFf1DBoZhnAibg39rsP
+/jbt9NMT01TYbpEXaJL5
+v5zubkVQYx6Gz\r\n' +
+        'U4tEF/jAGNF
+GPuUKZJGVMxlkPx111Sn
+S0hOnOP+0pZAKZeg4IgF
+/ij9aCQ4/hTsn\r\n' +
+        'Fq34fCuUqjK
+563GgoG9gMEGr32RzpS7
+l8/syJBuml1agSSC6XaM
+ZdVZ/PKUDClVU\r\n' +
+        'ndNp1hH06J1
+LlvdK/+0pX23YKcHp9md
+kgGiWyL1ZHMdQ9EngGXU
+wMoFXuRJlHr7O\r\n' +
+        '9Vk5LJCK1vj
+gaBJcI/ZM8w==\r\n' +
+        '-----END CE
+RTIFICATE-----\r\n',
+      key: 
+'-----BEGIN RSA 
+PRIVATE 
+KEY-----\r\n' +
+        'MIIEowIBAAK
+CAQEAnVUoz2eBXEJ+p5F
+d08C8G36hCKdahMlTV9H
+2SiwynfVZn7Ww\r\n' +
+        'TliRfRkne3X
+MN1tK3PsXbC+atQE7JVx
+GOWAMpGwroiSE5CQIN3h
+Hoy/QEkbBeJNZ\r\n' +
+        'xK/jdGP8z/N
+gCg+cPnuFxvtQ4kMSxgk
+qCyQPd0889yuLv6kZ2Ge
++dZj2xQ8wZZB+\r\n' +
+        'd9VGUw0rZ+h
+EKPI98STleP/LaOqcPuc
+lrBiFPEAIE+kBIA9ZOsi
+1xKXkznToIor9\r\n' +
+        '3Yhdpcru8t0
+cmQydEn5511RDyxHPUgZ
+LapMAtIvmLuEiiWrw6LZ
+YxATCMXCXROMu\r\n' +
+        '/d9f1zw3Ia8
+OAR+OcD8EVvc9mI0CvXf
+wOPoTrQIDAQABAoIBAAa
+Nx5dsLl1Tf8cn\r\n' +
+        'LQtnGe7jRX4
+AyqqBYHFmE6ZfVPRzhfo
+7LU72LYlShOyFqa4cpW+
+zHfSpvv4PQRF7\r\n' +
+        'WImHUL+Aqgi
+lEMwYHCeDYSiRE0/Plru
+ZF8IzuXvdtmhLMRL6N33
+600XIrkPem2eY\r\n' +
+        'diHkrKhBqr5
+5F+cx+hujprFrX8wxlwU
+lctFopi1JjICn49BdMaD
+k5bHwdgoqCXwg\r\n' +
+        '5DTIDmW/I1O
+Hzy6MC30VOGtyeOTMvaW
+1QZ/NRjYp4rooOm+rQSR
+PoUJ1/SJBJCeD\r\n' +
+        'qtzFIbZ0dih
+8pj82dANSyhyT92DlcO4
+5UQfXhZXrkswayz21K10
+fQhEdV25nUoyR\r\n' +
+        '2HASj9kCgYE
+A15lWwNVEL45+UJ7qxUE
+bZtRmmWFGAnwC45LA2DD
+7VKz8xzDwpsyL\r\n' +
+        'VFRPUb/VD2q
+Cm7w+vVSswhFaBkF4UxE
+cAXhAmzVjme1OBuuEc/r
+xME2cgqkWomzD\r\n' +
+        'QXaWbsduZDc
+mLbJZuS1PbjfOXDVtSLX
+BV0+NgKsl+xZ9GrCQCEm
+fwrcCgYEAutCu\r\n' +
+        'xc6An66kESd
+5+2mGwklUd1ZZ83COG35
+aaLSqfRjG/17U1wLBh+O
+YMeGpOrvAjo+p\r\n' +
+        'Jl3TWr3hKlR
+4DH6XcpIa1r9EiNXcsCV
+CCmhRf8vRgvD90bUQaJM
+OtniMPmOdUuko\r\n' +
+        '8ayAbmSeXLw
+YkmwmaezfWgBEvJ/PrSv
+QXki36LsCgYAHkCZ97z1
+MGciOlXSQ5N7M\r\n' +
+        'Nak/uizVi3o
+id5RyQQ2gA81+Q1Y907E
+TjT2XFY6o0siwI+NjiuP
+gjvFEhOluqIv9\r\n' +
+        '9TT2/OF4ld2
+F2p8z3lq1ohNadgoIOp6
+C3mEak75on5KkSbxiBZf
+iuuxvSaSCx3V3\r\n' +
+        '1Z+WIurbKwf
+KduUmlUaYcwKBgQCe8Jk
+hthV8xgrUhW+k1R1QAy+
+X8KHLGoHtJk0p\r\n' +
+        'NDyw/fmgn0A
+aRj/9q0d7ePCQBdlH8TY
+KbF07oL0HVKJmjvWvBlt
+LRaO7f6ipPKm5\r\n' +
+        'TRO51ODFtN9
+eIdx5/FPSLzGyivH47mJ
+la0xBn92ULHwDZ3wvNta
+4Le5NRPJd9R7s\r\n' +
+        'eJXvrQKBgEI
+cz/m6CEtcTKJZ+HVweXr
+J/+CupEQgVNfmtf0juLU
+icjxIp4AzE2DY\r\n' +
+        'ctDDqLwnL7s
+LHXvJn2iuWi3EoUgek63
+SFiTa+lLSlnzkVFuVMHR
+PXNtcYqhWSiG5\r\n' +
+        '41VvoBW8S4u
+htCOoTHHIE3ZG5faEYVO
+22ho1hrRBMcRdbWdAr/x
+C\r\n' +
+        '-----END 
+RSA PRIVATE 
+KEY-----\r\n' +
+        '-----BEGIN 
+CERTIFICATE-----\r\n
+' +
+        'MIIDzDCCArS
+gAwIBAgIJbUP0nM+YaF1
+dMA0GCSqGSIb3DQEBCwU
+AMGkxFDASBgNV\r\n' +
+        'BAMTC2V4YW1
+wbGUub3JnMQswCQYDVQQ
+GEwJVUzERMA8GA1UECBM
+IVmlyZ2luaWEx\r\n' +
+        'EzARBgNVBAc
+TCkJsYWNrc2J1cmcxDTA
+LBgNVBAoTBFRlc3QxDTA
+LBgNVBAsTBFRl\r\n' +
+        'c3QwHhcNMjU
+xMjMwMTcwNjA0WhcNMjY
+wMTI5MTcwNjA0WjBpMRQ
+wEgYDVQQDEwtl\r\n' +
+        'eGFtcGxlLm9
+yZzELMAkGA1UEBhMCVVM
+xETAPBgNVBAgTCFZpcmd
+pbmlhMRMwEQYD\r\n' +
+        'VQQHEwpCbGF
+ja3NidXJnMQ0wCwYDVQQ
+KEwRUZXN0MQ0wCwYDVQQ
+LEwRUZXN0MIIB\r\n' +
+        'IjANBgkqhki
+G9w0BAQEFAAOCAQ8AMII
+BCgKCAQEAnVUoz2eBXEJ
++p5Fd08C8G36h\r\n' +
+        'CKdahMlTV9H
+2SiwynfVZn7WwTliRfRk
+ne3XMN1tK3PsXbC+atQE
+7JVxGOWAMpGwr\r\n' +
+        'oiSE5CQIN3h
+Hoy/QEkbBeJNZxK/jdGP
+8z/NgCg+cPnuFxvtQ4kM
+SxgkqCyQPd088\r\n' +
+        '9yuLv6kZ2Ge
++dZj2xQ8wZZB+d9VGUw0
+rZ+hEKPI98STleP/LaOq
+cPuclrBiFPEAI\r\n' +
+        'E+kBIA9ZOsi
+1xKXkznToIor93Yhdpcr
+u8t0cmQydEn5511RDyxH
+PUgZLapMAtIvm\r\n' +
+        'LuEiiWrw6LZ
+YxATCMXCXROMu/d9f1zw
+3Ia8OAR+OcD8EVvc9mI0
+CvXfwOPoTrQID\r\n' +
+        'AQABo3cwdTA
+LBgNVHQ8EBAMCAvQwMQY
+DVR0lBCowKAYIKwYBBQU
+HAwEGCCsGAQUF\r\n' +
+        'BwMCBggrBgE
+FBQcDAwYIKwYBBQUHAwg
+wMwYDVR0RBCwwKoIJbG9
+jYWxob3N0ggVb\r\n' +
+        'OjoxXYcEfwA
+AAYcQ/oAAAAAAAAAAAAA
+AAAAAATANBgkqhkiG9w0
+BAQsFAAOCAQEA\r\n' +
+        'T0WaDzqy70N
+23TWOl0G+fNUhRRjcJMG
+7UaUG4sELNVNJrvvPsYd
+r9uXI2J7kfJgI\r\n' +
+        'u7iOeNQ55lM
+pHFf1DBoZhnAibg39rsP
+/jbt9NMT01TYbpEXaJL5
+v5zubkVQYx6Gz\r\n' +
+        'U4tEF/jAGNF
+GPuUKZJGVMxlkPx111Sn
+S0hOnOP+0pZAKZeg4IgF
+/ij9aCQ4/hTsn\r\n' +
+        'Fq34fCuUqjK
+563GgoG9gMEGr32RzpS7
+l8/syJBuml1agSSC6XaM
+ZdVZ/PKUDClVU\r\n' +
+        'ndNp1hH06J1
+LlvdK/+0pX23YKcHp9md
+kgGiWyL1ZHMdQ9EngGXU
+wMoFXuRJlHr7O\r\n' +
+        '9Vk5LJCK1vj
+gaBJcI/ZM8w==\r\n' +
+        '-----END CE
+RTIFICATE-----\r\n'
+    },
+    open: false,
+    proxy: {
+      '/api': {
+        target: 'htt
+p://localhost:5000',
+        
+changeOrigin: true,
+        secure: 
+false
+      },
+      '/socket.io': 
+{
+        target: 'htt
+p://localhost:5000',
+        ws: true,
+        
+changeOrigin: true,
+        secure: 
+false
+      }
+    },
+    cors: {
+      origin: /^http
+s?:\/\/(?:(?:[^:]+\.
+)?localhost|127\.0\.
+0\.1|\[::1\])(?::\d+
+)?$/
+    },
+    headers: {},
+    warmup: { 
+clientFiles: [], 
+ssrFiles: [] },
+    middlewareMode: 
+false,
+    fs: {
+      strict: true,
+      deny: [ 
+'.env', '.env.*', 
+'*.{crt,pem}', 
+'**/.git/**' ],
+      allow: [ 'C:/U
+sers/sahil/Desktop/R
+EACT Project/ChitCha
+t/client' ]
+    },
+    preTransformRequ
+ests: true,
+    perEnvironmentSt
+artEndDuringDev: 
+false,
+    perEnvironmentWa
+tchChangeDuringDev: 
+false,
+    sourcemapIgnoreL
+ist: [Function: 
+isInNodeModules]
+  },
+  build: {
+    target: [ 
+'chrome107', 
+'edge107', 
+'firefox104', 
+'safari16' ],
+    polyfillModulePr
+eload: true,
+    modulePreload: 
+{ polyfill: true },
+    outDir: 'dist',
+    assetsDir: 
+'assets',
+    
+assetsInlineLimit: 
+4096,
+    sourcemap: 
+false,
+    terserOptions: 
+{},
+    rollupOptions: {
+      onwarn: 
+[Function: onwarn],
+      plugins: [ { 
+name: 'inject', 
+transform: 
+[Function: 
+transform] } ]
+    },
+    
+commonjsOptions: { 
+include: [ 
+/node_modules/ ], 
+extensions: [ 
+'.js', '.cjs' ] },
+    dynamicImportVar
+sOptions: { 
+warnOnError: true, 
+exclude: [ 
+/node_modules/ ] },
+    write: true,
+    emptyOutDir: 
+null,
+    copyPublicDir: 
+true,
+    license: false,
+    manifest: false,
+    lib: false,
+    ssrManifest: 
+false,
+    ssrEmitAssets: 
+false,
+    reportCompressed
+Size: true,
+    chunkSizeWarning
+Limit: 500,
+    watch: null,
+    cssCodeSplit: 
+true,
+    minify: 
+'esbuild',
+    ssr: false,
+    emitAssets: 
+true,
+    
+createEnvironment: 
+[Function: 
+createEnvironment],
+    cssTarget: [ 
+'chrome107', 
+'edge107', 
+'firefox104', 
+'safari16' ],
+    cssMinify: true
+  },
+  esbuild: {
+    jsxDev: false,
+    charset: 'utf8',
+    legalComments: 
+'none',
+    jsx: 
+'automatic',
+    
+jsxImportSource: 
+undefined
+  },
+  optimizeDeps: {
+    include: [
+      'react',
+      'react-dom',
+      'react/jsx-dev
+-runtime',
+      
+'react/jsx-runtime'
+    ],
+    exclude: [
+      'C:\\Users\\sa
+hil\\Desktop\\REACT 
+Project\\ChitChat\\c
+lient\\node_modules\
+\vite-plugin-node-po
+lyfills\\shims\\buff
+er\\dist\\index.cjs'
+,
+      'C:\\Users\\sa
+hil\\Desktop\\REACT 
+Project\\ChitChat\\c
+lient\\node_modules\
+\vite-plugin-node-po
+lyfills\\shims\\glob
+al\\dist\\index.cjs'
+,
+      'C:\\Users\\sa
+hil\\Desktop\\REACT 
+Project\\ChitChat\\c
+lient\\node_modules\
+\vite-plugin-node-po
+lyfills\\shims\\proc
+ess\\dist\\index.cjs
+'
+    ],
+    needsInterop: 
+[],
+    extensions: [],
+    disabled: 
+undefined,
+    
+holdUntilCrawlEnd: 
+true,
+    force: false,
+    noDiscovery: 
+false,
+    esbuildOptions: 
+{
+      
+preserveSymlinks: 
+false,
+      jsx: 
+'automatic',
+      define: {},
+      inject: [
+        'C:\\Users\\
+sahil\\Desktop\\REAC
+T Project\\ChitChat\
+\client\\node_module
+s\\vite-plugin-node-
+polyfills\\shims\\bu
+ffer\\dist\\index.cj
+s',
+        'C:\\Users\\
+sahil\\Desktop\\REAC
+T Project\\ChitChat\
+\client\\node_module
+s\\vite-plugin-node-
+polyfills\\shims\\gl
+obal\\dist\\index.cj
+s',
+        'C:\\Users\\
+sahil\\Desktop\\REAC
+T Project\\ChitChat\
+\client\\node_module
+s\\vite-plugin-node-
+polyfills\\shims\\pr
+ocess\\dist\\index.c
+js'
+      ],
+      plugins: [
+        {
+          name: 'nod
+e-stdlib-browser-ali
+as',
+          setup: 
+[AsyncFunction: 
+setup]
+        },
+        {
+          name: 'vit
+e-plugin-node-polyfi
+lls-shims-resolver',
+          setup: 
+[Function: setup]
+        }
+      ]
+    }
+  },
+  resolve: {
+    
+externalConditions: 
+[ 'node', 
+'module-sync' ],
+    extensions: [
+      '.mjs',  
+'.js',
+      '.mts',  
+'.ts',
+      '.jsx',  
+'.tsx',
+      '.json'
+    ],
+    dedupe: [],
+    noExternal: [],
+    external: [],
+    
+preserveSymlinks: 
+false,
+    alias: [
+      {
+        find: 
+'assert',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\assert'
+      },
+      {
+        find: 
+'buffer',
+        
+replacement: 'vite-p
+lugin-node-polyfills
+/shims/buffer'
+      },
+      {
+        find: 
+'child_process',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'cluster',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'console',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\console-brow
+serify'
+      },
+      {
+        find: 
+'constants',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\constants-br
+owserify'
+      },
+      {
+        find: 
+'crypto',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\crypto-brows
+erify'
+      },
+      {
+        find: 
+'dgram',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 'dns',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'domain',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\domain-brows
+er'
+      },
+      {
+        find: 
+'events',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\events'
+      },
+      {
+        find: 'fs',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'http',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\stream-http'
+      },
+      {
+        find: 
+'https',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\https-browse
+rify'
+      },
+      {
+        find: 
+'http2',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'module',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 'net',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 'os',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\os-browserif
+y'
+      },
+      {
+        find: 
+'path',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\path-browser
+ify'
+      },
+      {
+        find: 
+'punycode',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\node_module
+s\\punycode'
+      },
+      {
+        find: 
+'process',
+        
+replacement: 'vite-p
+lugin-node-polyfills
+/shims/process'
+      },
+      {
+        find: 
+'querystring',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\proxy\
+\querystring.js'
+      },
+      {
+        find: 
+'readline',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'repl',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'stream',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\stream-brows
+erify'
+      },
+      {
+        find: 
+'_stream_duplex',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: '_stre
+am_passthrough',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 
+'_stream_readable',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 
+'_stream_transform',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 
+'_stream_writable',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 
+'string_decoder',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\string_decod
+er'
+      },
+      {
+        find: 'sys',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\util'
+      },
+      {
+        find: 
+'timers/promises',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\isomorphic-t
+imers-promises\\cjs'
+      },
+      {
+        find: 
+'timers',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\timers-brows
+erify'
+      },
+      {
+        find: 'tls',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 'tty',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\tty-browseri
+fy'
+      },
+      {
+        find: 'url',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\proxy\
+\url.js'
+      },
+      {
+        find: 
+'util',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\util'
+      },
+      {
+        find: 'vm',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\vm-browserif
+y'
+      },
+      {
+        find: 
+'zlib',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\browserify-z
+lib'
+      },
+      {
+        find: 
+'node:assert',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\assert'
+      },
+      {
+        find: 
+'node:buffer',
+        
+replacement: 'vite-p
+lugin-node-polyfills
+/shims/buffer'
+      },
+      {
+        find: 'node:
+child_process',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:cluster',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:console',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\console-brow
+serify'
+      },
+      {
+        find: 
+'node:constants',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\constants-br
+owserify'
+      },
+      {
+        find: 
+'node:crypto',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\crypto-brows
+erify'
+      },
+      {
+        find: 
+'node:dgram',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:dns',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:domain',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\domain-brows
+er'
+      },
+      {
+        find: 
+'node:events',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\events'
+      },
+      {
+        find: 
+'node:fs',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:http',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\stream-http'
+      },
+      {
+        find: 
+'node:https',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\https-browse
+rify'
+      },
+      {
+        find: 
+'node:http2',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:module',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:net',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:os',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\os-browserif
+y'
+      },
+      {
+        find: 
+'node:path',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\path-browser
+ify'
+      },
+      {
+        find: 
+'node:punycode',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\node_module
+s\\punycode'
+      },
+      {
+        find: 
+'node:process',
+        
+replacement: 'vite-p
+lugin-node-polyfills
+/shims/process'
+      },
+      {
+        find: 
+'node:querystring',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\proxy\
+\querystring.js'
+      },
+      {
+        find: 
+'node:readline',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:repl',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:stream',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\stream-brows
+erify'
+      },
+      {
+        find: 'node:
+_stream_duplex',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 'node:
+_stream_passthrough'
+,
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 'node:
+_stream_readable',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 'node:
+_stream_transform',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 'node:
+_stream_writable',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+      },
+      {
+        find: 'node:
+string_decoder',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\string_decod
+er'
+      },
+      {
+        find: 
+'node:sys',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\util'
+      },
+      {
+        find: 'node:
+timers/promises',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\isomorphic-t
+imers-promises\\cjs'
+      },
+      {
+        find: 
+'node:timers',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\timers-brows
+erify'
+      },
+      {
+        find: 
+'node:tls',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+      },
+      {
+        find: 
+'node:tty',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\tty-browseri
+fy'
+      },
+      {
+        find: 
+'node:url',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\proxy\
+\url.js'
+      },
+      {
+        find: 
+'node:util',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\util'
+      },
+      {
+        find: 
+'node:vm',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\vm-browserif
+y'
+      },
+      {
+        find: 
+'node:zlib',
+        
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\browserify-z
+lib'
+      },
+      {
+        find: 
+/^\/?@vite\/env/,
+        
+replacement: '/@fs/C
+:/Users/sahil/Deskto
+p/REACT Project/Chit
+Chat/client/node_mod
+ules/vite/dist/clien
+t/env.mjs'
+      },
+      {
+        find: 
+/^\/?@vite\/client/,
+        
+replacement: '/@fs/C
+:/Users/sahil/Deskto
+p/REACT Project/Chit
+Chat/client/node_mod
+ules/vite/dist/clien
+t/client.mjs'
+      }
+    ],
+    mainFields: [ 
+'browser', 
+'module', 
+'jsnext:main', 
+'jsnext' ],
+    conditions: [ 
+'module', 
+'browser', 'developm
+ent|production' ],
+    builtins: []
+  },
+  environments: {
+    client: {
+      define: 
+undefined,
+      resolve: {
+        
+externalConditions: 
+[ 'node', 
+'module-sync' ],
+        extensions: 
+[
+          '.mjs',  
+'.js',
+          '.mts',  
+'.ts',
+          '.jsx',  
+'.tsx',
+          '.json'
+        ],
+        dedupe: [],
+        noExternal: 
+[],
+        external: 
+[],
+        
+preserveSymlinks: 
+false,
+        alias: [
+          {
+            find: 
+'assert',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\assert'
+          },
+          {
+            find: 
+'buffer',
+            
+replacement: 'vite-p
+lugin-node-polyfills
+/shims/buffer'
+          },
+          {
+            find: 
+'child_process',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'cluster',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'console',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\console-brow
+serify'
+          },
+          {
+            find: 
+'constants',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\constants-br
+owserify'
+          },
+          {
+            find: 
+'crypto',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\crypto-brows
+erify'
+          },
+          {
+            find: 
+'dgram',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'dns',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'domain',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\domain-brows
+er'
+          },
+          {
+            find: 
+'events',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\events'
+          },
+          {
+            find: 
+'fs',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'http',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\stream-http'
+          },
+          {
+            find: 
+'https',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\https-browse
+rify'
+          },
+          {
+            find: 
+'http2',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'module',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'net',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'os',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\os-browserif
+y'
+          },
+          {
+            find: 
+'path',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\path-browser
+ify'
+          },
+          {
+            find: 
+'punycode',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\node_module
+s\\punycode'
+          },
+          {
+            find: 
+'process',
+            
+replacement: 'vite-p
+lugin-node-polyfills
+/shims/process'
+          },
+          {
+            find: 
+'querystring',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\proxy\
+\querystring.js'
+          },
+          {
+            find: 
+'readline',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'repl',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'stream',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\stream-brows
+erify'
+          },
+          {
+            find: 
+'_stream_duplex',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: '_
+stream_passthrough',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 
+'_stream_readable',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 
+'_stream_transform',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 
+'_stream_writable',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 
+'string_decoder',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\string_decod
+er'
+          },
+          {
+            find: 
+'sys',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\util'
+          },
+          {
+            find: 
+'timers/promises',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\isomorphic-t
+imers-promises\\cjs'
+          },
+          {
+            find: 
+'timers',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\timers-brows
+erify'
+          },
+          {
+            find: 
+'tls',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'tty',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\tty-browseri
+fy'
+          },
+          {
+            find: 
+'url',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\proxy\
+\url.js'
+          },
+          {
+            find: 
+'util',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\util'
+          },
+          {
+            find: 
+'vm',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\vm-browserif
+y'
+          },
+          {
+            find: 
+'zlib',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\browserify-z
+lib'
+          },
+          {
+            find: 
+'node:assert',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\assert'
+          },
+          {
+            find: 
+'node:buffer',
+            
+replacement: 'vite-p
+lugin-node-polyfills
+/shims/buffer'
+          },
+          {
+            find: 'n
+ode:child_process',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:cluster',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:console',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\console-brow
+serify'
+          },
+          {
+            find: 
+'node:constants',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\constants-br
+owserify'
+          },
+          {
+            find: 
+'node:crypto',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\crypto-brows
+erify'
+          },
+          {
+            find: 
+'node:dgram',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:dns',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:domain',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\domain-brows
+er'
+          },
+          {
+            find: 
+'node:events',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\events'
+          },
+          {
+            find: 
+'node:fs',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:http',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\stream-http'
+          },
+          {
+            find: 
+'node:https',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\https-browse
+rify'
+          },
+          {
+            find: 
+'node:http2',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:module',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:net',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:os',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\os-browserif
+y'
+          },
+          {
+            find: 
+'node:path',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\path-browser
+ify'
+          },
+          {
+            find: 
+'node:punycode',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\node_module
+s\\punycode'
+          },
+          {
+            find: 
+'node:process',
+            
+replacement: 'vite-p
+lugin-node-polyfills
+/shims/process'
+          },
+          {
+            find: 
+'node:querystring',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\proxy\
+\querystring.js'
+          },
+          {
+            find: 
+'node:readline',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:repl',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:stream',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\stream-brows
+erify'
+          },
+          {
+            find: 'n
+ode:_stream_duplex',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 'n
+ode:_stream_passthro
+ugh',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 'n
+ode:_stream_readable
+',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 'n
+ode:_stream_transfor
+m',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 'n
+ode:_stream_writable
+',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\readable-str
+eam'
+          },
+          {
+            find: 'n
+ode:string_decoder',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\string_decod
+er'
+          },
+          {
+            find: 
+'node:sys',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\util'
+          },
+          {
+            find: 'n
+ode:timers/promises'
+,
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\isomorphic-t
+imers-promises\\cjs'
+          },
+          {
+            find: 
+'node:timers',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\timers-brows
+erify'
+          },
+          {
+            find: 
+'node:tls',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\mock\\
+empty.js'
+          },
+          {
+            find: 
+'node:tty',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\tty-browseri
+fy'
+          },
+          {
+            find: 
+'node:url',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\node-stdlib-
+browser\\esm\\proxy\
+\url.js'
+          },
+          {
+            find: 
+'node:util',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\util'
+          },
+          {
+            find: 
+'node:vm',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\vm-browserif
+y'
+          },
+          {
+            find: 
+'node:zlib',
+            
+replacement: 'C:\\Us
+ers\\sahil\\Desktop\
+\REACT Project\\Chit
+Chat\\client\\node_m
+odules\\browserify-z
+lib'
+          },
+          {
+            find: 
+/^\/?@vite\/env/,
+            
+replacement: '/@fs/C
+:/Users/sahil/Deskto
+p/REACT Project/Chit
+Chat/client/node_mod
+ules/vite/dist/clien
+t/env.mjs'
+          },
+          {
+            find: 
+/^\/?@vite\/client/,
+            
+replacement: '/@fs/C
+:/Users/sahil/Deskto
+p/REACT Project/Chit
+Chat/client/node_mod
+ules/vite/dist/clien
+t/client.mjs'
+          }
+        ],
+        mainFields: 
+[ 'browser', 
+'module', 
+'jsnext:main', 
+'jsnext' ],
+        conditions: 
+[ 'module', 
+'browser', 'developm
+ent|production' ],
+        builtins: []
+      },
+      
+keepProcessEnv: 
+false,
+      consumer: 
+'client',
+      optimizeDeps: 
+{
+        include: [
+          'react',
+          
+'react-dom',
+          'react/jsx
+-dev-runtime',
+          
+'react/jsx-runtime'
+        ],
+        exclude: [
+          'C:\\Users
+\\sahil\\Desktop\\RE
+ACT Project\\ChitCha
+t\\client\\node_modu
+les\\vite-plugin-nod
+e-polyfills\\shims\\
+buffer\\dist\\index.
+cjs',
+          'C:\\Users
+\\sahil\\Desktop\\RE
+ACT Project\\ChitCha
+t\\client\\node_modu
+les\\vite-plugin-nod
+e-polyfills\\shims\\
+global\\dist\\index.
+cjs',
+          'C:\\Users
+\\sahil\\Desktop\\RE
+ACT Project\\ChitCha
+t\\client\\node_modu
+les\\vite-plugin-nod
+e-polyfills\\shims\\
+process\\dist\\index
+.cjs'
+        ],
+        
+needsInterop: [],
+        extensions: 
+[],
+        disabled: 
+undefined,
+        
+holdUntilCrawlEnd: 
+true,
+        force: 
+false,
+        
+noDiscovery: false,
+        
+esbuildOptions: {
+          
+preserveSymlinks: 
+false,
+          jsx: 
+'automatic',
+          define: 
+{},
+          inject: [
+            'C:\\Use
+rs\\sahil\\Desktop\\
+REACT Project\\ChitC
+hat\\client\\node_mo
+dules\\vite-plugin-n
+ode-polyfills\\shims
+\\buffer\\dist\\inde
+x.cjs',
+            'C:\\Use
+rs\\sahil\\Desktop\\
+REACT Project\\ChitC
+hat\\client\\node_mo
+dules\\vite-plugin-n
+ode-polyfills\\shims
+\\global\\dist\\inde
+x.cjs',
+            'C:\\Use
+rs\\sahil\\Desktop\\
+REACT Project\\ChitC
+hat\\client\\node_mo
+dules\\vite-plugin-n
+ode-polyfills\\shims
+\\process\\dist\\ind
+ex.cjs'
+          ],
+          plugins: [
+            {
+              name: 
+'node-stdlib-browser
+-alias',
+              
+setup: 
+[AsyncFunction: 
+setup]
+            },
+            {
+              name: 
+'vite-plugin-node-po
+lyfills-shims-resolv
+er',
+              
+setup: [Function: 
+setup]
+            }
+          ]
+        }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: 
+{ js: true },
+        sourcemapIgn
+oreList: [Function: 
+isInNodeModules],
+        preTransform
+Requests: true,
+        
+createEnvironment: 
+[Function: defaultCr
+eateClientDevEnviron
+ment],
+        
+recoverable: true,
+        moduleRunner
+Transform: false
+      },
+      build: {
+        target: [ 
+'chrome107', 
+'edge107', 
+'firefox104', 
+'safari16' ],
+        polyfillModu
+lePreload: true,
+        
+modulePreload: { 
+polyfill: true },
+        outDir: 
+'dist',
+        assetsDir: 
+'assets',
+        
+assetsInlineLimit: 
+4096,
+        sourcemap: 
+false,
+        
+terserOptions: {},
+        
+rollupOptions: {
+          onwarn: 
+[Function: onwarn],
+          plugins: 
+[ { name: 'inject', 
+transform: 
+[Function: 
+transform] } ]
+        },
+        
+commonjsOptions: { 
+include: [ 
+/node_modules/ ], 
+extensions: [ 
+'.js', '.cjs' ] },
+        dynamicImpor
+tVarsOptions: { 
+warnOnError: true, 
+exclude: [ 
+/node_modules/ ] },
+        write: true,
+        
+emptyOutDir: null,
+        
+copyPublicDir: true,
+        license: 
+false,
+        manifest: 
+false,
+        lib: false,
+        
+ssrManifest: false,
+        
+ssrEmitAssets: 
+false,
+        reportCompre
+ssedSize: true,
+        chunkSizeWar
+ningLimit: 500,
+        watch: null,
+        
+cssCodeSplit: true,
+        minify: 
+'esbuild',
+        ssr: false,
+        emitAssets: 
+true,
+        
+createEnvironment: 
+[Function: 
+createEnvironment],
+        cssTarget: 
+[ 'chrome107', 
+'edge107', 
+'firefox104', 
+'safari16' ],
+        cssMinify: 
+true
+      },
+      plugins: [
+        {
+          name: 'vit
+e:build-metadata',
+          
+renderChunk: 
+[AsyncFunction: 
+renderChunk]
+        },
+        {
+          name: 'vit
+e:watch-package-data
+',
+          
+buildStart: 
+[Function: 
+buildStart],
+          buildEnd: 
+[Function: 
+buildEnd],
+          
+watchChange: 
+[Function: 
+watchChange]
+        },
+        {
+          name: 
+'alias',
+          
+buildStart: 
+[AsyncFunction: 
+buildStart],
+          
+resolveId: 
+[Function: 
+resolveId]
+        },
+        {
+          name: 
+'vite:react-babel',
+          enforce: 
+'pre',
+          config: 
+[Function: config],
+          
+configResolved: 
+[Function: 
+configResolved],
+          options: 
+[Function: options]
+        },
+        {
+          name: 'vit
+e:react-refresh',
+          enforce: 
+'pre',
+          config: 
+[Function: config],
+          
+resolveId: {
+            filter: 
+{ id: /^\/@react\-re
+fresh$/ },
+            
+handler: [Function: 
+handler]
+          },
+          load: {
+            filter: 
+{ id: /^\/@react\-re
+fresh$/ },
+            
+handler: [Function: 
+handler]
+          },
+          
+transformIndexHtml: 
+[Function: 
+transformIndexHtml]
+        },
+        {
+          name: 'vit
+e:modulepreload-poly
+fill',
+          
+resolveId: {
+            filter: 
+{ id: /^vite\/module
+preload\-polyfill$/ 
+},
+            
+handler: [Function: 
+handler]
+          },
+          load: {
+            filter: 
+{ id: /^ vite\/modul
+epreload\-polyfill\.
+js$/ },
+            
+handler: [Function: 
+handler]
+          }
+        },
+        {
+          name: 
+'vite:resolve',
+          
+resolveId: {
+            filter: 
+{ id: { exclude: /^(
+?:\0|\/?virtual:)/ 
+} },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          load: {
+            filter: 
+{
+              id: [
+                /^__
+vite\-browser\-exter
+nal/,
+                /^__
+vite\-optional\-peer
+\-dep/
+              ]
+            },
+            
+handler: [Function: 
+handler]
+          }
+        },
+        {
+          name: 'vit
+e:html-inline-proxy'
+,
+          
+resolveId: {
+            filter: 
+{ id: 
+/[?&]html-proxy\b/ 
+},
+            
+handler: [Function: 
+handler]
+          },
+          load: {
+            filter: 
+{ id: 
+/[?&]html-proxy\b/ 
+},
+            
+handler: [Function: 
+handler]
+          }
+        },
+        {
+          name: 
+'vite:css',
+          
+buildStart: 
+[Function: 
+buildStart],
+          buildEnd: 
+[Function: 
+buildEnd],
+          load: {
+            filter: 
+{
+              id: /\
+.(css|less|sass|scss
+|styl|stylus|pcss|po
+stcss|sss)(?:$|\?)/
+            },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          
+transform: {
+            filter: 
+{
+              id: {
+                
+include: /\.(css|les
+s|sass|scss|styl|sty
+lus|pcss|postcss|sss
+)(?:$|\?)/,
+                
+exclude: [
+                  /[
+?&]commonjs-proxy/,
+                  /[
+?&](?:worker|sharedw
+orker|raw|url)\b/
+                ]
+              }
+            },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          }
+        },
+        {
+          name: 
+'vite:esbuild',
+          
+configureServer: 
+[Function: 
+configureServer],
+          
+transform: 
+[AsyncFunction: 
+transform]
+        },
+        {
+          name: 
+'vite:json',
+          
+transform: {
+            filter: 
+{
+              id: {
+                
+include: /\.json(?:$
+|\?)(?!commonjs-(?:p
+roxy|external))/,
+                
+exclude: /[?&](?:wor
+ker|sharedworker|raw
+|url)\b/
+              }
+            },
+            
+handler: [Function: 
+handler]
+          }
+        },
+        {
+          name: 
+'vite:wasm-helper',
+          
+resolveId: {
+            filter: 
+{ id: /^ vite\/wasm\
+-helper\.js$/ },
+            
+handler: [Function: 
+handler]
+          },
+          load: {
+            filter: 
+{
+              id: [
+                /^ v
+ite\/wasm\-helper\.j
+s$/,
+                /(?<
+![?#].*)\.wasm\?init
+/
+              ]
+            },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          }
+        },
+        {
+          name: 
+'vite:worker',
+          
+buildStart: 
+[Function: 
+buildStart],
+          load: {
+            filter: 
+{ id: /(?:\?|&)(work
+er|sharedworker)(?:&
+|$)/ },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          
+transform: {
+            filter: 
+{ id: /(?:\?|&)worke
+r_file&type=(\w+)(?:
+&|$)/ },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          
+renderChunk: 
+[Function: 
+renderChunk],
+          
+generateBundle: 
+[Function: 
+generateBundle],
+          
+watchChange: 
+[Function: 
+watchChange]
+        },
+        {
+          name: 
+'vite:asset',
+          perEnviron
+mentStartEndDuringDe
+v: true,
+          
+buildStart: 
+[Function: 
+buildStart],
+          
+resolveId: { 
+handler: [Function: 
+handler] },
+          load: {
+            filter: 
+{ id: { exclude: 
+/^\0/ } },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          
+renderChunk: 
+[Function: 
+renderChunk],
+          
+generateBundle: 
+[Function: 
+generateBundle]
+        },
+        {
+          name: 'vit
+e:react-virtual-prea
+mble',
+          
+resolveId: {
+            order: 
+'pre',
+            filter: 
+{ id: /^@vitejs\/plu
+gin\-react\/preamble
+$/ },
+            
+handler: [Function: 
+handler]
+          },
+          load: {
+            filter: 
+{ id: /^ @vitejs\/pl
+ugin\-react\/preambl
+e$/ },
+            
+handler: [Function: 
+handler]
+          }
+        },
+        {
+          name: 
+'vite:basic-ssl',
+          
+configResolved: 
+[AsyncFunction: 
+configResolved]
+        },
+        {
+          name: 'vit
+e-plugin-node-polyfi
+lls',
+          config: 
+[Function: config]
+        },
+        {
+          name: 'vit
+e:wasm-fallback',
+          load: { 
+filter: { id: 
+/\.wasm$/ }, 
+handler: [Function: 
+handler] }
+        },
+        {
+          name: 
+'vite:define',
+          
+transform: { 
+handler: 
+[AsyncFunction: 
+handler] }
+        },
+        {
+          name: 
+'vite:css-post',
+          
+renderStart: 
+[Function: 
+renderStart],
+          
+transform: {
+            filter: 
+{
+              id: {
+                
+include: /\.(css|les
+s|sass|scss|styl|sty
+lus|pcss|postcss|sss
+)(?:$|\?)/,
+                
+exclude: [
+                  /[
+?&]commonjs-proxy/,
+                  /[
+?&](?:worker|sharedw
+orker|raw|url)\b/
+                ]
+              }
+            },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          
+renderChunk: 
+[AsyncFunction: 
+renderChunk],
+          
+augmentChunkHash: 
+[Function: 
+augmentChunkHash],
+          
+generateBundle: 
+[AsyncFunction: 
+generateBundle]
+        },
+        {
+          name: 
+'vite:build-html',
+          
+transform: {
+            filter: 
+{ id: /\.html$/ },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          
+generateBundle: 
+[AsyncFunction: 
+generateBundle]
+        },
+        {
+          name: 'vit
+e:worker-import-meta
+-url',
+          
+applyToEnvironment: 
+[Function: 
+applyToEnvironment],
+          
+transform: {
+            filter: 
+{
+              code: 
+/new\s+(?:Worker|Sha
+redWorker)\s*\(\s*ne
+w\s+URL.+?import\.me
+ta\.url/s
+            },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          }
+        },
+        {
+          name: 'vit
+e:asset-import-meta-
+url',
+          
+applyToEnvironment: 
+[Function: 
+applyToEnvironment],
+          
+transform: {
+            filter: 
+{
+              id: {
+                
+exclude: [
+                  /^
+ vite\/preload\-help
+er\.js$/,
+                  /^
+C:\\Users\\sahil\\De
+sktop\\REACT Project
+\\ChitChat\\client\\
+node_modules\\vite\\
+dist\\client\\client
+\.mjs$/
+                ]
+              },
+              code: 
+/new\s+URL.+import\.
+meta\.url/s
+            },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          }
+        },
+        {
+          name: 'vit
+e:force-amd-wrap-req
+uire',
+          
+renderChunk: 
+[Function: 
+renderChunk]
+        },
+        {
+          name: 'vit
+e:force-systemjs-wra
+p-complete',
+          
+renderChunk: 
+[Function: 
+renderChunk]
+        },
+        {
+          name: 'vit
+e:prepare-out-dir',
+          options: 
+[Function: options],
+          
+renderStart: { 
+order: 'pre', 
+handler: [Function: 
+handler] }
+        },
+        {
+          name: 
+'commonjs',
+          version: 
+'29.0.0',
+          options: 
+[Function: options],
+          
+buildStart: 
+[Function: 
+buildStart],
+          buildEnd: 
+[Function: 
+buildEnd],
+          load: 
+[AsyncFunction: 
+load],
+          shouldTran
+sformCachedModule: 
+[Function: shouldTra
+nsformCachedModule],
+          
+transform: 
+[Function: 
+transform]
+        },
+        {
+          name: 
+'vite:data-uri',
+          
+buildStart: 
+[Function: 
+buildStart],
+          
+resolveId: 
+[Function: 
+resolveId],
+          load: 
+[Function: load]
+        },
+        { name: 
+'inject', 
+transform: 
+[Function: 
+transform] },
+        {
+          name: 'vit
+e:dynamic-import-var
+s',
+          
+resolveId: {
+            filter: 
+{ id: /^ vite\/dynam
+ic\-import\-helper\.
+js$/ },
+            
+handler: [Function: 
+handler]
+          },
+          load: {
+            filter: 
+{ id: /^ vite\/dynam
+ic\-import\-helper\.
+js$/ },
+            
+handler: [Function: 
+handler]
+          },
+          
+transform: {
+            filter: 
+{
+              id: {
+                
+exclude: /^C:\\Users
+\\sahil\\Desktop\\RE
+ACT Project\\ChitCha
+t\\client\\node_modu
+les\\vite\\dist\\cli
+ent\\client\.mjs$/
+              },
+              code: 
+/\bimport\s*[(/]/
+            },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          }
+        },
+        {
+          name: 
+'vite:import-glob',
+          
+buildStart: 
+[Function: 
+buildStart],
+          
+transform: {
+            filter: 
+{ code: 
+'import.meta.glob' 
+},
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          
+hotUpdate: 
+[Function: 
+hotUpdate]
+        },
+        {
+          name: 'vit
+e:build-import-analy
+sis',
+          
+resolveId: {
+            filter: 
+{ id: /^ vite\/prelo
+ad\-helper\.js$/ },
+            
+handler: [Function: 
+handler]
+          },
+          load: {
+            filter: 
+{ id: /^ vite\/prelo
+ad\-helper\.js$/ },
+            
+handler: [Function: 
+handler]
+          },
+          
+transform: {
+            filter: 
+{ code: 
+/import\s*\(/ },
+            
+handler: 
+[AsyncFunction: 
+handler]
+          },
+          
+renderChunk: 
+[Function: 
+renderChunk],
+          
+generateBundle: 
+[Function: 
+generateBundle]
+        },
+        {
+          name: 'vit
+e:esbuild-transpile'
+,
+          
+applyToEnvironment: 
+[Function: 
+applyToEnvironment],
+          
+renderChunk: 
+[AsyncFunction: 
+renderChunk]
+        },
+        {
+          name: 
+'vite:terser',
+          
+applyToEnvironment: 
+[Function: 
+applyToEnvironment],
+          
+renderChunk: 
+[AsyncFunction: 
+renderChunk],
+          
+closeBundle: 
+[Function: 
+closeBundle]
+        },
+        {
+          name: 
+'vite:license',
+          
+generateBundle: 
+[AsyncFunction: 
+generateBundle]
+        },
+        {
+          name: 
+'vite:reporter',
+          
+sharedDuringBuild: 
+true,
+          perEnviron
+mentStartEndDuringDe
+v: true,
+          
+transform: 
+[Function: 
+transform],
+          
+buildStart: 
+[Function: 
+buildStart],
+          buildEnd: 
+[Function: 
+buildEnd],
+          
+renderStart: 
+[Function: 
+renderStart],
+          
+renderChunk: 
+[Function: 
+renderChunk],
+          
+generateBundle: 
+[Function: 
+generateBundle],
+          
+writeBundle: 
+[AsyncFunction: 
+writeBundle]
+        },
+        {
+          name: 'vit
+e:load-fallback',
+          load: { 
+handler: 
+[AsyncFunction: 
+handler] }
+        }
+      ]
+    }
+  },
+  configFile: 'C:/Us
+ers/sahil/Desktop/RE
+ACT Project/ChitChat
+/client/vite.config.
+js',
+  configFileDependen
+cies: [
+    'C:/Users/sahil/
+Desktop/REACT Projec
+t/ChitChat/client/vi
+te.config.js'
+  ],
+  inlineConfig: {
+    root: undefined,
+    base: undefined,
+    mode: undefined,
+    configFile: 
+undefined,
+    configLoader: 
+undefined,
+    logLevel: 
+undefined,
+    clearScreen: 
+undefined,
+    build: {}
+  },
+  root: 'C:/Users/sa
+hil/Desktop/REACT Pr
+oject/ChitChat/clien
+t',
+  base: '/',
+  decodedBase: '/',
+  rawBase: '/',
+  publicDir: 'C:/Use
+rs/sahil/Desktop/REA
+CT Project/ChitChat/
+client/public',
+  cacheDir: 'C:/User
+s/sahil/Desktop/REAC
+T Project/ChitChat/c
+lient/node_modules/.
+vite',
+  command: 'build',
+  mode: 
+'production',
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: 
+true,
+  css: {
+    transformer: 
+'postcss',
+    preprocessorMaxW
+orkers: true,
+    devSourcemap: 
+false
+  },
+  json: { 
+namedExports: true, 
+stringify: 'auto' },
+  builder: 
+undefined,
+  preview: {
+    port: 4173,
+    strictPort: 
+false,
+    host: true,
+    allowedHosts: 
+[],
+    https: {
+      cert: 
+'-----BEGIN RSA 
+PRIVATE 
+KEY-----\r\n' +
+        'MIIEowIBAAK
+CAQEAnVUoz2eBXEJ+p5F
+d08C8G36hCKdahMlTV9H
+2SiwynfVZn7Ww\r\n' +
+        'TliRfRkne3X
+MN1tK3PsXbC+atQE7JVx
+GOWAMpGwroiSE5CQIN3h
+Hoy/QEkbBeJNZ\r\n' +
+        'xK/jdGP8z/N
+gCg+cPnuFxvtQ4kMSxgk
+qCyQPd0889yuLv6kZ2Ge
++dZj2xQ8wZZB+\r\n' +
+        'd9VGUw0rZ+h
+EKPI98STleP/LaOqcPuc
+lrBiFPEAIE+kBIA9ZOsi
+1xKXkznToIor9\r\n' +
+        '3Yhdpcru8t0
+cmQydEn5511RDyxHPUgZ
+LapMAtIvmLuEiiWrw6LZ
+YxATCMXCXROMu\r\n' +
+        '/d9f1zw3Ia8
+OAR+OcD8EVvc9mI0CvXf
+wOPoTrQIDAQABAoIBAAa
+Nx5dsLl1Tf8cn\r\n' +
+        'LQtnGe7jRX4
+AyqqBYHFmE6ZfVPRzhfo
+7LU72LYlShOyFqa4cpW+
+zHfSpvv4PQRF7\r\n' +
+        'WImHUL+Aqgi
+lEMwYHCeDYSiRE0/Plru
+ZF8IzuXvdtmhLMRL6N33
+600XIrkPem2eY\r\n' +
+        'diHkrKhBqr5
+5F+cx+hujprFrX8wxlwU
+lctFopi1JjICn49BdMaD
+k5bHwdgoqCXwg\r\n' +
+        '5DTIDmW/I1O
+Hzy6MC30VOGtyeOTMvaW
+1QZ/NRjYp4rooOm+rQSR
+PoUJ1/SJBJCeD\r\n' +
+        'qtzFIbZ0dih
+8pj82dANSyhyT92DlcO4
+5UQfXhZXrkswayz21K10
+fQhEdV25nUoyR\r\n' +
+        '2HASj9kCgYE
+A15lWwNVEL45+UJ7qxUE
+bZtRmmWFGAnwC45LA2DD
+7VKz8xzDwpsyL\r\n' +
+        'VFRPUb/VD2q
+Cm7w+vVSswhFaBkF4UxE
+cAXhAmzVjme1OBuuEc/r
+xME2cgqkWomzD\r\n' +
+        'QXaWbsduZDc
+mLbJZuS1PbjfOXDVtSLX
+BV0+NgKsl+xZ9GrCQCEm
+fwrcCgYEAutCu\r\n' +
+        'xc6An66kESd
+5+2mGwklUd1ZZ83COG35
+aaLSqfRjG/17U1wLBh+O
+YMeGpOrvAjo+p\r\n' +
+        'Jl3TWr3hKlR
+4DH6XcpIa1r9EiNXcsCV
+CCmhRf8vRgvD90bUQaJM
+OtniMPmOdUuko\r\n' +
+        '8ayAbmSeXLw
+YkmwmaezfWgBEvJ/PrSv
+QXki36LsCgYAHkCZ97z1
+MGciOlXSQ5N7M\r\n' +
+        'Nak/uizVi3o
+id5RyQQ2gA81+Q1Y907E
+TjT2XFY6o0siwI+NjiuP
+gjvFEhOluqIv9\r\n' +
+        '9TT2/OF4ld2
+F2p8z3lq1ohNadgoIOp6
+C3mEak75on5KkSbxiBZf
+iuuxvSaSCx3V3\r\n' +
+        '1Z+WIurbKwf
+KduUmlUaYcwKBgQCe8Jk
+hthV8xgrUhW+k1R1QAy+
+X8KHLGoHtJk0p\r\n' +
+        'NDyw/fmgn0A
+aRj/9q0d7ePCQBdlH8TY
+KbF07oL0HVKJmjvWvBlt
+LRaO7f6ipPKm5\r\n' +
+        'TRO51ODFtN9
+eIdx5/FPSLzGyivH47mJ
+la0xBn92ULHwDZ3wvNta
+4Le5NRPJd9R7s\r\n' +
+        'eJXvrQKBgEI
+cz/m6CEtcTKJZ+HVweXr
+J/+CupEQgVNfmtf0juLU
+icjxIp4AzE2DY\r\n' +
+        'ctDDqLwnL7s
+LHXvJn2iuWi3EoUgek63
+SFiTa+lLSlnzkVFuVMHR
+PXNtcYqhWSiG5\r\n' +
+        '41VvoBW8S4u
+htCOoTHHIE3ZG5faEYVO
+22ho1hrRBMcRdbWdAr/x
+C\r\n' +
+        '-----END 
+RSA PRIVATE 
+KEY-----\r\n' +
+        '-----BEGIN 
+CERTIFICATE-----\r\n
+' +
+        'MIIDzDCCArS
+gAwIBAgIJbUP0nM+YaF1
+dMA0GCSqGSIb3DQEBCwU
+AMGkxFDASBgNV\r\n' +
+        'BAMTC2V4YW1
+wbGUub3JnMQswCQYDVQQ
+GEwJVUzERMA8GA1UECBM
+IVmlyZ2luaWEx\r\n' +
+        'EzARBgNVBAc
+TCkJsYWNrc2J1cmcxDTA
+LBgNVBAoTBFRlc3QxDTA
+LBgNVBAsTBFRl\r\n' +
+        'c3QwHhcNMjU
+xMjMwMTcwNjA0WhcNMjY
+wMTI5MTcwNjA0WjBpMRQ
+wEgYDVQQDEwtl\r\n' +
+        'eGFtcGxlLm9
+yZzELMAkGA1UEBhMCVVM
+xETAPBgNVBAgTCFZpcmd
+pbmlhMRMwEQYD\r\n' +
+        'VQQHEwpCbGF
+ja3NidXJnMQ0wCwYDVQQ
+KEwRUZXN0MQ0wCwYDVQQ
+LEwRUZXN0MIIB\r\n' +
+        'IjANBgkqhki
+G9w0BAQEFAAOCAQ8AMII
+BCgKCAQEAnVUoz2eBXEJ
++p5Fd08C8G36h\r\n' +
+        'CKdahMlTV9H
+2SiwynfVZn7WwTliRfRk
+ne3XMN1tK3PsXbC+atQE
+7JVxGOWAMpGwr\r\n' +
+        'oiSE5CQIN3h
+Hoy/QEkbBeJNZxK/jdGP
+8z/NgCg+cPnuFxvtQ4kM
+SxgkqCyQPd088\r\n' +
+        '9yuLv6kZ2Ge
++dZj2xQ8wZZB+d9VGUw0
+rZ+hEKPI98STleP/LaOq
+cPuclrBiFPEAI\r\n' +
+        'E+kBIA9ZOsi
+1xKXkznToIor93Yhdpcr
+u8t0cmQydEn5511RDyxH
+PUgZLapMAtIvm\r\n' +
+        'LuEiiWrw6LZ
+YxATCMXCXROMu/d9f1zw
+3Ia8OAR+OcD8EVvc9mI0
+CvXfwOPoTrQID\r\n' +
+        'AQABo3cwdTA
+LBgNVHQ8EBAMCAvQwMQY
+DVR0lBCowKAYIKwYBBQU
+HAwEGCCsGAQUF\r\n' +
+        'BwMCBggrBgE
+FBQcDAwYIKwYBBQUHAwg
+wMwYDVR0RBCwwKoIJbG9
+jYWxob3N0ggVb\r\n' +
+        'OjoxXYcEfwA
+AAYcQ/oAAAAAAAAAAAAA
+AAAAAATANBgkqhkiG9w0
+BAQsFAAOCAQEA\r\n' +
+        'T0WaDzqy70N
+23TWOl0G+fNUhRRjcJMG
+7UaUG4sELNVNJrvvPsYd
+r9uXI2J7kfJgI\r\n' +
+        'u7iOeNQ55lM
+pHFf1DBoZhnAibg39rsP
+/jbt9NMT01TYbpEXaJL5
+v5zubkVQYx6Gz\r\n' +
+        'U4tEF/jAGNF
+GPuUKZJGVMxlkPx111Sn
+S0hOnOP+0pZAKZeg4IgF
+/ij9aCQ4/hTsn\r\n' +
+        'Fq34fCuUqjK
+563GgoG9gMEGr32RzpS7
+l8/syJBuml1agSSC6XaM
+ZdVZ/PKUDClVU\r\n' +
+        'ndNp1hH06J1
+LlvdK/+0pX23YKcHp9md
+kgGiWyL1ZHMdQ9EngGXU
+wMoFXuRJlHr7O\r\n' +
+        '9Vk5LJCK1vj
+gaBJcI/ZM8w==\r\n' +
+        '-----END CE
+RTIFICATE-----\r\n',
+      key: 
+'-----BEGIN RSA 
+PRIVATE 
+KEY-----\r\n' +
+        'MIIEowIBAAK
+CAQEAnVUoz2eBXEJ+p5F
+d08C8G36hCKdahMlTV9H
+2SiwynfVZn7Ww\r\n' +
+        'TliRfRkne3X
+MN1tK3PsXbC+atQE7JVx
+GOWAMpGwroiSE5CQIN3h
+Hoy/QEkbBeJNZ\r\n' +
+        'xK/jdGP8z/N
+gCg+cPnuFxvtQ4kMSxgk
+qCyQPd0889yuLv6kZ2Ge
++dZj2xQ8wZZB+\r\n' +
+        'd9VGUw0rZ+h
+EKPI98STleP/LaOqcPuc
+lrBiFPEAIE+kBIA9ZOsi
+1xKXkznToIor9\r\n' +
+        '3Yhdpcru8t0
+cmQydEn5511RDyxHPUgZ
+LapMAtIvmLuEiiWrw6LZ
+YxATCMXCXROMu\r\n' +
+        '/d9f1zw3Ia8
+OAR+OcD8EVvc9mI0CvXf
+wOPoTrQIDAQABAoIBAAa
+Nx5dsLl1Tf8cn\r\n' +
+        'LQtnGe7jRX4
+AyqqBYHFmE6ZfVPRzhfo
+7LU72LYlShOyFqa4cpW+
+zHfSpvv4PQRF7\r\n' +
+        'WImHUL+Aqgi
+lEMwYHCeDYSiRE0/Plru
+ZF8IzuXvdtmhLMRL6N33
+600XIrkPem2eY\r\n' +
+        'diHkrKhBqr5
+5F+cx+hujprFrX8wxlwU
+lctFopi1JjICn49BdMaD
+k5bHwdgoqCXwg\r\n' +
+        '5DTIDmW/I1O
+Hzy6MC30VOGtyeOTMvaW
+1QZ/NRjYp4rooOm+rQSR
+PoUJ1/SJBJCeD\r\n' +
+        'qtzFIbZ0dih
+8pj82dANSyhyT92DlcO4
+5UQfXhZXrkswayz21K10
+fQhEdV25nUoyR\r\n' +
+        '2HASj9kCgYE
+A15lWwNVEL45+UJ7qxUE
+bZtRmmWFGAnwC45LA2DD
+7VKz8xzDwpsyL\r\n' +
+        'VFRPUb/VD2q
+Cm7w+vVSswhFaBkF4UxE
+cAXhAmzVjme1OBuuEc/r
+xME2cgqkWomzD\r\n' +
+        'QXaWbsduZDc
+mLbJZuS1PbjfOXDVtSLX
+BV0+NgKsl+xZ9GrCQCEm
+fwrcCgYEAutCu\r\n' +
+        'xc6An66kESd
+5+2mGwklUd1ZZ83COG35
+aaLSqfRjG/17U1wLBh+O
+YMeGpOrvAjo+p\r\n' +
+        'Jl3TWr3hKlR
+4DH6XcpIa1r9EiNXcsCV
+CCmhRf8vRgvD90bUQaJM
+OtniMPmOdUuko\r\n' +
+        '8ayAbmSeXLw
+YkmwmaezfWgBEvJ/PrSv
+QXki36LsCgYAHkCZ97z1
+MGciOlXSQ5N7M\r\n' +
+        'Nak/uizVi3o
+id5RyQQ2gA81+Q1Y907E
+TjT2XFY6o0siwI+NjiuP
+gjvFEhOluqIv9\r\n' +
+        '9TT2/OF4ld2
+F2p8z3lq1ohNadgoIOp6
+C3mEak75on5KkSbxiBZf
+iuuxvSaSCx3V3\r\n' +
+        '1Z+WIurbKwf
+KduUmlUaYcwKBgQCe8Jk
+hthV8xgrUhW+k1R1QAy+
+X8KHLGoHtJk0p\r\n' +
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+        'NDyw/fmgn0A
+aRj/9q0d7ePCQBdlH8TY
+KbF07oL0HVKJmjvWvBlt
+LRaO7f6ipPKm5\r\n' +
+        'TRO51ODFtN9
+eIdx5/FPSLzGyivH47mJ
+la0xBn92ULHwDZ3wvNta
+4Le5NRPJd9R7s\r\n' +
+        'eJXvrQKBgEI
+cz/m6CEtcTKJZ+HVweXr
+J/+CupEQgVNfmtf0juLU
+icjxIp4AzE2DY\r\n' +
+        'ctDDqLwnL7s
+LHXvJn2iuWi3EoUgek63
+SFiTa+lLSlnzkVFuVMHR
+PXNtcYqhWSiG5\r\n' +
+        '41VvoBW8S4u
+htCOoTHHIE3ZG5faEYVO
+22ho1hrRBMcRdbWdAr/x
+C\r\n' +
+        '-----END 
+RSA PRIVATE 
+KEY-----\r\n' +
+        '-----BEGIN 
+CERTIFICATE-----\r\n
+' +
+        'MIIDzDCCArS
+gAwIBAgIJbUP0nM+YaF1
+dMA0GCSqGSIb3DQEBCwU
+AMGkxFDASBgNV\r\n' +
+        'BAMTC2V4YW1
+wbGUub3JnMQswCQYDVQQ
+GEwJVUzERMA8GA1UECBM
+IVmlyZ2luaWEx\r\n' +
+        'EzARBgNVBAc
+TCkJsYWNrc2J1cmcxDTA
+LBgNVBAoTBFRlc3QxDTA
+LBgNVBAsTBFRl\r\n' +
+        'c3QwHhcNMjU
+xMjMwMTcwNjA0WhcNMjY
+wMTI5MTcwNjA0WjBpMRQ
+wEgYDVQQDEwtl\r\n' +
+        'eGFtcGxlLm9
+yZzELMAkGA1UEBhMCVVM
+xETAPBgNVBAgTCFZpcmd
+pbmlhMRMwEQYD\r\n' +
+        'VQQHEwpCbGF
+ja3NidXJnMQ0wCwYDVQQ
+KEwRUZXN0MQ0wCwYDVQQ
+LEwRUZXN0MIIB\r\n' +
+        'IjANBgkqhki
+G9w0BAQEFAAOCAQ8AMII
+BCgKCAQEAnVUoz2eBXEJ
++p5Fd08C8G36h\r\n' +
+        'CKdahMlTV9H
+2SiwynfVZn7WwTliRfRk
+ne3XMN1tK3PsXbC+atQE
+7JVxGOWAMpGwr\r\n' +
+        'oiSE5CQIN3h
+Hoy/QEkbBeJNZxK/jdGP
+8z/NgCg+cPnuFxvtQ4kM
+SxgkqCyQPd088\r\n' +
+        '9yuLv6kZ2Ge
++dZj2xQ8wZZB+d9VGUw0
+rZ+hEKPI98STleP/LaOq
+cPuclrBiFPEAI\r\n' +
+        'E+kBIA9ZOsi
+1xKXkznToIor93Yhdpcr
+u8t0cmQydEn5511RDyxH
+PUgZLapMAtIvm\r\n' +
+        'LuEiiWrw6LZ
+YxATCMXCXROMu/d9f1zw
+3Ia8OAR+OcD8EVvc9mI0
+CvXfwOPoTrQID\r\n' +
+        'AQABo3cwdTA
+LBgNVHQ8EBAMCAvQwMQY
+DVR0lBCowKAYIKwYBBQU
+HAwEGCCsGAQUF\r\n' +
+        'BwMCBggrBgE
+FBQcDAwYIKwYBBQUHAwg
+wMwYDVR0RBCwwKoIJbG9
+jYWxob3N0ggVb\r\n' +
+        'OjoxXYcEfwA
+AAYcQ/oAAAAAAAAAAAAA
+AAAAAATANBgkqhkiG9w0
+BAQsFAAOCAQEA\r\n' +
+        'T0WaDzqy70N
+23TWOl0G+fNUhRRjcJMG
+7UaUG4sELNVNJrvvPsYd
+r9uXI2J7kfJgI\r\n' +
+        'u7iOeNQ55lM
+pHFf1DBoZhnAibg39rsP
+/jbt9NMT01TYbpEXaJL5
+v5zubkVQYx6Gz\r\n' +
+        'U4tEF/jAGNF
+GPuUKZJGVMxlkPx111Sn
+S0hOnOP+0pZAKZeg4IgF
+/ij9aCQ4/hTsn\r\n' +
+        'Fq34fCuUqjK
+563GgoG9gMEGr32RzpS7
+l8/syJBuml1agSSC6XaM
+ZdVZ/PKUDClVU\r\n' +
+        'ndNp1hH06J1
+LlvdK/+0pX23YKcHp9md
+kgGiWyL1ZHMdQ9EngGXU
+wMoFXuRJlHr7O\r\n' +
+        '9Vk5LJCK1vj
+gaBJcI/ZM8w==\r\n' +
+        '-----END CE
+RTIFICATE-----\r\n'
+    },
+    open: false,
+    proxy: {
+      '/api': {
+        target: 'htt
+p://localhost:5000',
+        
+changeOrigin: true,
+        secure: 
+false
+      },
+      '/socket.io': 
+{
+        target: 'htt
+p://localhost:5000',
+        ws: true,
+        
+changeOrigin: true,
+        secure: 
+false
+      }
+    },
+    cors: {
+      origin: /^http
+s?:\/\/(?:(?:[^:]+\.
+)?localhost|127\.0\.
+0\.1|\[::1\])(?::\d+
+)?$/
+    },
+    headers: {}
+  },
+  envDir: 'C:/Users/
+sahil/Desktop/REACT 
+Project/ChitChat/cli
+ent',
+  env: { BASE_URL: 
+'/', MODE: 
+'production', DEV: 
+false, PROD: true },
+  assetsInclude: 
+[Function: 
+assetsInclude],
+  logger: {
+    hasWarned: 
+false,
+    info: 
+[Function: info],
+    warn: 
+[Function: warn],
+    warnOnce: 
+[Function: 
+warnOnce],
+    error: 
+[Function: error],
+    clearScreen: 
+[Function: 
+clearScreen],
+    hasErrorLogged: 
+[Function: 
+hasErrorLogged]
+  },
+  packageCache: 
+Map(1) {
+    'fnpd_C:/Users/s
+ahil/Desktop/REACT P
+roject/ChitChat/clie
+nt' => {
+      dir: 'C:/Users
+/sahil/Desktop/REACT
+ Project/ChitChat/cl
+ient',
+      data: {
+        name: 
+'client',
+        private: 
+true,
+        version: 
+'0.0.0',
+        type: 
+'module',
+        scripts: {
+          dev: 
+'vite',
+          build: 
+'vite build',
+          lint: 
+'eslint .',
+          preview: 
+'vite preview'
+        },
+        
+dependencies: {
+          '@tailwind
+css/postcss': 
+'^4.1.18',
+          '@tailwind
+css/vite': 
+'^4.1.18',
+          axios: 
+'^1.13.2',
+          react: 
+'^19.2.0',
+          
+'react-dom': 
+'^19.2.0',
+          
+'react-icons': 
+'^5.5.0',
+          
+'react-router-dom': 
+'^7.11.0',
+          
+'simple-peer': 
+'^9.11.1',
+          
+'socket.io-client': 
+'^4.8.3',
+          
+'timeago.js': 
+'^4.0.2',
+          'vite-plug
+in-node-polyfills': 
+'^0.24.0'
+        },
+        
+devDependencies: {
+          
+'@eslint/js': 
+'^9.39.1',
+          
+'@types/react': 
+'^19.2.5',
+          
+'@types/react-dom': 
+'^19.2.3',
+          '@vitejs/p
+lugin-basic-ssl': 
+'^2.1.0',
+          '@vitejs/p
+lugin-react': 
+'^5.1.1',
+          
+autoprefixer: 
+'^10.4.23',
+          eslint: 
+'^9.39.1',
+          'eslint-pl
+ugin-react-hooks': 
+'^7.0.1',
+          'eslint-pl
+ugin-react-refresh':
+ '^0.4.24',
+          globals: 
+'^16.5.0',
+          postcss: 
+'^8.5.6',
+          
+tailwindcss: 
+'^4.1.18',
+          vite: 
+'^7.2.4'
+        }
+      },
+      
+hasSideEffects: 
+[Function: 
+hasSideEffects],
+      
+setResolvedCache: 
+[Function: 
+setResolvedCache],
+      
+getResolvedCache: 
+[Function: 
+getResolvedCache]
+    },
+    set: [Function 
+(anonymous)]
+  },
+  worker: { format: 
+'iife', plugins: 
+'() => plugins', 
+rollupOptions: {} },
+  appType: 'spa',
+  experimental: {
+    importGlobRestor
+eExtension: false,
+    renderBuiltUrl: 
+undefined,
+    
+hmrPartialAccept: 
+false
+  },
+  future: undefined,
+  ssr: {
+    target: 'node',
+    optimizeDeps: { 
+esbuildOptions: { 
+preserveSymlinks: 
+false } },
+    resolve: { 
+conditions: 
+undefined, 
+externalConditions: 
+undefined }
+  },
+  dev: {
+    warmup: [],
+    sourcemap: { 
+js: true },
+    sourcemapIgnoreL
+ist: [Function: 
+isInNodeModules],
+    preTransformRequ
+ests: false,
+    
+createEnvironment: 
+[Function: defaultCr
+eateDevEnvironment],
+    recoverable: 
+false,
+    moduleRunnerTran
+sform: false
+  },
+  webSocketToken: 
+'XXrsavknlqAL',
+  getSortedPlugins: 
+[Function: 
+getSortedPlugins],
+  getSortedPluginHoo
+ks: [Function: getSo
+rtedPluginHooks],
+  createResolver: 
+[Function: 
+createResolver],
+  fsDenyGlob: 
+[Function: 
+arrayMatcher],
+  safeModulePaths: 
+Set(0) {},
+  [Symbol(vite:resol
+ved-config)]: true
+}
+transforming...
+2026-01-01T23:23:09.
+567Z vite:resolve 
+[32m4.23ms[39m [3
+6mtailwindcss[39m 
+-> [2mC:/Users/sahi
+l/Desktop/REACT Proj
+ect/ChitChat/client/
+node_modules/tailwin
+dcss/index.css[22m
+[32mΓ£ô[39m 249 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.54 kB[22m[1m[22m[2m Γöé gzip:   0.35 kB[22m
+[2mdist/[22m[35massets/index-wO4uf8hh.css  [39m[1m[2m 33.52 kB[22m[1m[22m[2m Γöé gzip:   6.57 kB[22m
+[2mdist/[22m[36massets/index-B_7kC7aQ.js   [39m[1m[33m528.07 kB[39m[22m[2m Γöé gzip: 168.06 kB[22m
+[33m
+(!) Some chunks are 
+larger than 500 kB 
+after minification. 
+Consider:
+- Using dynamic 
+import() to 
+code-split the 
+application
+- Use build.rollupOp
+tions.output.manualC
+hunks to improve 
+chunking: https://ro
+llupjs.org/configura
+tion-options/#output
+-manualchunks
+- Adjust chunk size 
+limit for this 
+warning via build.ch
+unkSizeWarningLimit.
+[39m
+[32mΓ£ô built in 8.85s[39m

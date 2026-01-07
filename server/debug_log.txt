@@ -1,0 +1,444 @@
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Checking debug certs...
+Generating self-signed certificates...
+Error in HTTPS setup: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Checking debug certs...
+Generating self-signed certificates...
+Error in HTTPS setup: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Checking debug certs...
+Generating self-signed certificates...
+PEMS keys: 
+Error in HTTPS setup: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Checking debug certs...
+Generating self-signed certificates...
+PEMS keys: 
+Error in HTTPS setup: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Checking debug certs...
+Generating self-signed certificates...
+PEMS keys: 
+Error in HTTPS setup: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned loaded
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned skipped
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned skipped
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned skipped
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+MongoDB Connected Successfully
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned skipped
+Socket.io loaded
+Certs missing, falling back to HTTP
+Error in HTTPS setup: Cert files missing
+Falling back to HTTP
+HTTP Server created via fallback
+Post-server setup reached
+MongoDB Connected Successfully
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned skipped
+Socket.io loaded
+Reading existing certs
+HTTPS Server created
+Post-server setup reached
+MongoDB Connected Successfully
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned skipped
+Socket.io loaded
+Reading existing certs
+HTTPS Server created
+Post-server setup reached
+MongoDB Connected Successfully
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned skipped
+Socket.io loaded
+Reading existing certs
+HTTPS Server created
+Post-server setup reached
+MongoDB Connected Successfully
+Starting script...
+Express loaded
+Mongoose loaded
+Selfsigned skipped
+Socket.io loaded
+Reading existing certs
+HTTPS Server created
+Post-server setup reached
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully
+Starting script...
+Starting script...
+Server running on port 5000
+MongoDB Connected Successfully

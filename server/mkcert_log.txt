@@ -1,0 +1,10 @@
+Starting mkcert...
+Error: Cannot find module 'node-forge'
+Require stack:
+- C:\Users\sahil\Desktop\REACT Project\ChitChat\server\mkcert.js
+Starting mkcert...
+Forge required
+Success
+Starting mkcert...
+Forge required
+Success
