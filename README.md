@@ -22,5 +22,5 @@ HTML	Structure
 CSS / Tailwind CSS	Styling & UI
 JavaScript	Frontend Logic
 PHP	Backend Processing
-JSON	Database Storage
+MOngoDb	Database Storage
 WebRTC	Audio/Video Calls
